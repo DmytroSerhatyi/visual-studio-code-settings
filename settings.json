@@ -1,0 +1,49 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Visual Studio Code settings
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "typescript.preferences.quoteStyle": "single",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "newUntitledFile",
+    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
+    "window.titleBarStyle": "custom",
+
+    // Project Manager extension settings
+    "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+
+    // GitLens extension settings
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.menus": {
+        "editor": {
+            "clipboard": false,
+            "compare": false,
+            "details": false,
+            "remote": false
+        },
+        "editorGroup": {
+            "blame": false,
+            "compare": false
+        },
+        "editorTab": {
+            "remote": false
+        },
+        "explorer": {
+            "compare": false,
+            "history": false,
+            "remote": false
+        }
+    },
+    "gitlens.historyExplorer.enabled": false,
+    "gitlens.gitExplorer.enabled": false,
+
+    // GitExtensions extension settings
+    "gitExtensions.editor.contextmenu": false,
+    "gitExtensions.editor.title.contextmenu": false,
+    "gitExtensions.explorer.contextmenu": false,
+    "gitExtensions.scm.title.menu": false
+}
