@@ -8,42 +8,53 @@
     "workbench.editor.tabSizing": "shrink",
     "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
-    "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${appName}",
-    "window.titleBarStyle": "custom",
 
-    // Project Manager extension settings
-    "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+    // GitExtensions extension settings
+    "gitExtensions.editor.contextmenu": false,
+    "gitExtensions.editor.title.contextmenu": false,
+    "gitExtensions.explorer.contextmenu": false,
+    "gitExtensions.scm.title.menu": false,
 
     // GitLens extension settings
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
     "gitlens.menus": {
         "editor": {
             "clipboard": false,
-            "compare": false,
-            "details": false,
-            "remote": false
+            "compare": false
         },
         "editorGroup": {
             "blame": false,
             "compare": false
         },
         "editorTab": {
-            "remote": false
+          "clipboard": false,
+          "compare": false,
+          "history": false,
+          "remote": false
         },
         "explorer": {
+            "clipboard": false,
             "compare": false,
             "history": false,
             "remote": false
+        },
+        "scmGroup": {
+          "compare": false,
+          "openClose": false,
+          "stash": false,
+          "stashInline": false
+        },
+        "scmItem": {
+          "clipboard": false,
+          "compare": false,
+          "history": false,
+          "remote": false,
+          "stash": false
         }
     },
-    "gitlens.historyExplorer.enabled": false,
-    "gitlens.gitExplorer.enabled": false,
+    "gitlens.views.fileHistory.enabled": false,
+    "gitlens.views.lineHistory.enabled": false,
+    "gitlens.views.repositories.enabled": false,
 
-    // GitExtensions extension settings
-    "gitExtensions.editor.contextmenu": false,
-    "gitExtensions.editor.title.contextmenu": false,
-    "gitExtensions.explorer.contextmenu": false,
-    "gitExtensions.scm.title.menu": false
+    // Project Manager extension settings
+    "projectManager.openInNewWindowWhenClickingInStatusBar": true,
 }
